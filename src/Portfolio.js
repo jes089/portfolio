@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function Portfolio() {
   return (
-    <div className="App">
+    <div className="Portfolio">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Portfolio;
