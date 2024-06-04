@@ -1,31 +1,8 @@
-# Getting Started with Create React App
+# React + Vite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## To run locally
+Currently, two official plugins are available:
 
-```
-npm install
-```
-
-```
-npm start
-```
-
-## To deploy
-Using [react-gh-pages](https://github.com/gitname/react-gh-pages) 
-
-1. With new changes, run:
-```
-npm run deploy
-```
-
-or use (to add custom commit message)
-
-```
-npm run deploy -- -m "Deploy React app to GitHub Pages"
-```
-
-This will automatically deploy and use the gh-pages branch as the deployed branch. 
-
-The site is live at https://jes089.github.io/portfolio/
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
